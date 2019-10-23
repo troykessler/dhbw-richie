@@ -4,7 +4,10 @@ import {
   Column,
   Entity,
   ObjectID,
-  ObjectIdColumn
+  ObjectIdColumn,
+  UpdateDateColumn,
+  BeforeInsert,
+  BeforeUpdate
 } from 'typeorm';
 import { Lecture } from './lecture.entity';
 import { User } from './user.entity';

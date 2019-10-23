@@ -40,4 +40,5 @@ export class User {
   updateCreated() {
     this.created = new Date().getTime();
   }
+
 }
